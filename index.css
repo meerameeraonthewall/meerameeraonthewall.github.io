@@ -1,0 +1,46 @@
+body{
+    background-color:#7EBCFA;
+}
+
+.list-group-item{
+    color:#420084;
+    background-color:#7EBCFA;
+}
+
+.card{
+    border: 2px solid #420084;
+    border-radius:15px;
+}
+
+.allskills{
+    text-align:center;
+}
+
+.skill{
+    margin:30px;
+}
+
+.rounded-circle{
+    border: 2px solid #420084;
+}
+
+#contact{
+    text-align:center;
+}
+
+.contact{
+    margin:15px;
+}
+
+.contact .text-center{
+    padding-top:10px;
+}
+
+.links{
+    display:inline-flex;
+}
+
+.foot{
+    text-align:center;
+}
+
