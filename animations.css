@@ -1,2 +1,11 @@
+.icon-overlay{
+    height:100%;
+    opacity:0.1;
+    transition: opacity, .01s;
+}
 
+.icon-overlay:hover{
+    cursor:pointer;
+    opacity:1;
+}
 
