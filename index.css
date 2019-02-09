@@ -20,24 +20,6 @@ body{
     margin:30px;
 }
 
-.all-overlays{
-    position:relative;
-    bottom: 124px;
-}
-
-
-.icon-overlay{
-    margin:30px;
-}
-
-.icon-overlay.btvs{
-    height:64px;
-}
-
-.icon-overlay.german{
-    height:60px;
-}
-
 .rounded-circle{
     border: 2px solid #420084;
 }
@@ -57,7 +39,6 @@ body{
 .links{
     display:inline-flex;
 }
-
 
 .foot{
     text-align:center;
