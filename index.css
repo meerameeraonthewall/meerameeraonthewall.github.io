@@ -20,6 +20,33 @@ body{
     margin:30px;
 }
 
+.all-overlays{
+    text-align:center;
+}
+
+.icon-overlay{
+    margin:30px;
+}
+
+.comm, .present, .lead, .write, .german, .btvs{
+    width:64px;
+}
+
+.hard-overlays{
+    position:relative;
+    bottom:516px;
+}
+
+.soft-overlays{
+    position:relative;
+    bottom:444px;
+}
+
+.extras-overlays{
+    position:relative;
+    bottom:372px;
+}
+
 .rounded-circle{
     border: 2px solid #420084;
 }
