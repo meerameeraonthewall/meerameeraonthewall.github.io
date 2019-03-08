@@ -25,7 +25,7 @@ body{
 }
 
 .icon-overlay{
-    margin:30px;
+    margin:25px 17px 25px 17px;
 }
 
 .comm, .present, .lead, .write, .german, .btvs{
@@ -34,17 +34,18 @@ body{
 
 .hard-overlays{
     position:relative;
-    bottom:516px;
+    bottom:518px;
 }
+
 
 .soft-overlays{
     position:relative;
-    bottom:444px;
+    bottom:450px;
 }
 
 .extras-overlays{
     position:relative;
-    bottom:372px;
+    bottom:382px;
 }
 
 .rounded-circle{
@@ -71,3 +72,7 @@ body{
     text-align:center;
 }
 
+button {
+    background-color: #7EBCFA;
+    border: none;
+}

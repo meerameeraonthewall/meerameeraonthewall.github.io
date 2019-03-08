@@ -77,10 +77,9 @@
             
             
             <!---Skills--->
-            <h1 class="text-center">Skills</h1>
+            <h1 class="text-center text-success">Skills</h1>
             <br><br><br>
             <div class="allskills">
-                
                 <div class="hardskills">
                     <img class="skill python" src="./Images/python.png" alt="Python">
                     <img class="skill html" src="./Images/html.png" alt="HTML">
@@ -107,20 +106,20 @@
                 
             <div class="all-overlays">
                 <div class="hard-overlays">
-                    <img class="icon-overlay python" src="./Images/python2.png" alt="Python">
-                    <img class="icon-overlay html" src="./Images/html2.png" alt="HTML">
-                    <img class="icon-overlay csharp" src="./Images/csharp2.png" alt="C#">
-                    <img class="icon-overlay office" src="./Images/office2.png" alt="Microsoft Office Suite">
+                    <a tabindex="0" class="btn popover-dismiss python" role="button" data-placement="bottom" data-toggle="popover" data-trigger="hover" title="Python" data-content="I am proficient in Python, from the basics to web scraping"><img class="icon-overlay python" src="./Images/python2.png" alt="Python"></a>
+                    <a tabindex="0" class="btn popover-dismiss html" role="button" data-placement="bottom" data-toggle="popover" data-trigger="hover" title="HTML" data-content="I have strong skills in HTML (I made this website with HTML, CSS, and jQuery!)"><img class="icon-overlay html" src="./Images/html2.png" alt="HTML"></a>
+                    <a tabindex="0" class="btn popover-dismiss csharp" role="button" data-placement="bottom" data-toggle="popover" data-trigger="hover" title="C#" data-content="I have basic skills in C#, including use in Unity game development"><img class="icon-overlay csharp" src="./Images/csharp2.png" alt="C#"></a>
+                    <a tabindex="0" class="btn popover-dismiss office" role="button" data-placement="bottom" data-toggle="popover" data-trigger="hover" title="Microsoft Office" data-content="I excel using Microsoft Office Suite-- I've been using Office since writing to the Tooth Fairy on Word"><img class="icon-overlay office" src="./Images/office2.png" alt="Microsoft Office Suite"></a>
                 </div>
                 <div class="soft-overlays">
-                    <img class="icon-overlay comm" src="./Images/likable2.png" alt="Communicate">
-                    <img class="icon-overlay present" src="./Images/speak2.png" alt="Present">
-                    <img class="icon-overlay lead" src="./Images/team2.png" alt="Lead">
-                    <img class="icon-overlay write" src="./Images/write2.png" alt="Write">
+                    <a tabindex="0" class="btn popover-dismiss" role="button" data-placement="bottom" data-toggle="popover" data-trigger="hover" title="Good with People" data-content="I'm laid-back and friendly. Isn't that what we all want in a coworker?"><img class="icon-overlay comm" src="./Images/likable2.png" alt="Communicate"></a>
+                    <a tabindex="0" class="btn popover-dismiss" role="button" data-placement="bottom" data-toggle="popover" data-trigger="hover" title="Presenting" data-content="I have strong presentation skills-- I won't bore an audience or faint onstage"><img class="icon-overlay present" src="./Images/speak2.png" alt="Present"></a>
+                    <a tabindex="0" class="btn popover-dismiss" role="button" data-placement="bottom" data-toggle="popover" data-trigger="hover" title="Teamwork" data-content="I thrive in a team-- Teamwork makes the dream work, so I make it my goal to be available and useful in a group setting. I am also unafraid of taking a lead role and delegating work"><img class="icon-overlay lead" src="./Images/team2.png" alt="Lead"></a>
+                    <a tabindex="0" class="btn popover-dismiss" role="button" data-placement="bottom" data-toggle="popover" data-trigger="hover" title="Writing" data-content="I have excellent writing skills-- I graduated high school with an International Baccalaureate diploma, which required me to write everything from moving essays to analytical research papers "><img class="icon-overlay write" src="./Images/write2.png" alt="Write"></a>
                 </div>
                 <div class="extras-overlays">
-                    <img class="icon-overlay german" src="./Images/german2.png" alt="German">
-                    <img class="icon-overlay btvs" src="./Images/fangs2.png" alt="Buffy the Vampire Slayer">
+                    <a tabindex="0" class="btn popover-dismiss" role="button" data-placement="bottom" data-toggle="popover" data-trigger="hover" title="German" data-content="Ich spreche fließend Deutsch, da ich ein Jahr in Dresden als Austauschschülerin gewohnt habe. Prost!"><img class="icon-overlay german" src="./Images/german2.png" alt="German"></a>
+                    <a tabindex="0" class="btn popover-dismiss" role="button" data-placement="bottom" data-toggle="popover" data-trigger="hover" title="Buffy the Vampire Slayer" data-content="Late-90's Teen Vampire TV Trivia Night? You'll definitely want me on your team."><img class="icon-overlay btvs" src="./Images/fangs2.png" alt="Buffy the Vampire Slayer"></a>
                 </div>
             </div>
                 
@@ -192,6 +191,11 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script>
+            $('.popover-dismiss').popover({
+            trigger: 'hover'
+            })
+        </script>
     </body>
     
     
